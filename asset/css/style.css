@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", serif;
+}
+
+.container{
+    width: 1200px;
+    margin: auto;
+}
+
+.clear{
+    clear: both;
+}
+
+/*............. Header ...............*/
+
+header{
+    background-color: rgb(1, 44, 1);
+    padding: 10px 0;
+}
+.container .navbar .navbar-brand{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.container .navbar .navbar-menu{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+header .container .navbar .navbar-brand{
+    float: left;
+}
+
+header .container .navbar .navbar-menu{
+    float: right;
+}
+
+/*............. Header end...............*/
+
+/*............. main ...............*/
+
+.hero-banner img{
+   width: 100%;
+}
+
+.services-1{
+    background-color: rgb(128, 248, 168);
+    padding: 50px 0;
+}
+
+.services-1 .container .box-1{
+    width: 230px;
+    height: 200px;
+    background-color: rgb(1, 44, 1);
+    float: left;
+}
+
+.services-2{
+    background-color: rgb(198, 197, 255);
+    padding: 50px 0;
+}
+
+.services-2 .container .box-2{
+    width: 230px;
+    height: 200px;
+    background-color: rgb(20, 1, 51);
+    float: right;
+}
+
+/*............. main end...............*/
+
+/*............. footer ...............*/
+
+footer{
+    padding: 20px;
+}
+.container h3{
+    text-align: center;
+}
+
+/*............. footer end...............*/
+
